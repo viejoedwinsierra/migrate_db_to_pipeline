@@ -1,0 +1,46 @@
+# importando el modulo de regex de python
+from ast import Not, NotIn
+import re  
+import os
+
+
+##			___________________________________________________________________________________________________________________
+##			| ________________________________________________________________________________________________________________ |
+##			| |           ****************************************************************************                       | |
+##			| |                                            Proyecto migracion                                                | |
+##			| |           ****************************************************************************                       | |
+##			| |                                                                                                              | |
+##			| | Author: Edwin Gustavo Sierra P  (edwin.sierra@telefonica.com)                                                | |
+##			| | Process: This procces has tow funtions, the one is explore directory and the other funcion is retun a list   | |
+##			| |          whtih the files's directory.                                                                        | |
+##			| |                                                                                                              | |
+##			| |                                                                                                              | |
+##			| |                                                                                                              | |
+##			| |                                                                                                              | |
+##			| |                                                                                                              | |
+##			| |                                                                                                              | |
+##			| |                                                                                                              | |
+##			| |                                                                                                              | |
+##			| |                                                                                                              | |
+##			| |                                                                                                              | |
+##			| |                                                                                                              | |
+##			| |______________________________________________________________________________________________________________| |
+##			|__________________________________________________________________________________________________________________|
+
+def explore_directory(rut) :
+    #beging variables
+    ini_sp = False
+    fin_sp = False
+    ini_com = False
+    fin_com = False
+    nom_sp = ""
+    nom_tab = ""
+    cont = 0
+    caract1 = 60
+    # analice directory 
+    rut = "C:\\hurto_terminales"
+    r = direct(rut)
+    #print (r)
+    x = r.split("|")
+    #print (x)
+    return x
